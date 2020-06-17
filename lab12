@@ -1,0 +1,6 @@
+a = [1,2,3,4,5,6,12]
+b = [1,3,6,7,8]
+c = set(a).intersection(b)
+ 
+for v in c 
+    print(a.index(v), b.index(v))
